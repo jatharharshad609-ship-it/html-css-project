@@ -1,0 +1,84 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:#f4f4f4;
+}
+
+/* Header */
+
+header{
+    background:black;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    padding:15px 50px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+
+/* Hero Section */
+
+.hero{
+    background:url('images/photo1.jpg');
+    background-size:cover;
+    color:white;
+    text-align:center;
+    padding:120px 20px;
+}
+
+/* Gallery */
+
+#gallery{
+    text-align:center;
+    padding:40px;
+}
+
+.gallery-container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.gallery-container img{
+    width:300px;
+    border-radius:10px;
+}
+
+/* Contact */
+
+#contact{
+    text-align:center;
+    padding:40px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    width:300px;
+    margin:auto;
+}
+
+input, textarea{
+    margin:10px 0;
+    padding:10px;
+}
+
+button{
+    background:black;
+    color:white;
+    border:none;
+    padding:10px;
+}
+
+/* Footer */
+
+footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
